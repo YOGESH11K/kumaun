@@ -1,8 +1,8 @@
 import { img } from "@/lib/imageSource";
 
 export const siteConfig = {
-  title: "Kumaon — Discover Mukteshwar, Saliyakote & Nainital",
-  shortTitle: "KUMAON",
+  title: "Kumaun — Discover Mukteshwar, Saliyakote & Nainital",
+  shortTitle: "KUMAUN",
   description:
     "Explore the mountains, villages, forests and landscapes of Kumaon through an immersive digital journey across Mukteshwar, Saliyakote, Sundarkhal, Dharapani and Nainital.",
   url: "https://kumaun.vercel.app",

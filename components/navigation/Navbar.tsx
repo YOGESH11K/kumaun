@@ -112,7 +112,7 @@ export function Navbar() {
               ))}
             </nav>
             <p className="pb-10 text-center text-xs tracking-[0.3em] text-mist/40">
-              KUMAON — THE MOUNTAINS ARE CALLING
+              KUMAUN — THE MOUNTAINS ARE CALLING
             </p>
           </motion.div>
         )}

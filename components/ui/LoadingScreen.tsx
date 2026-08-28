@@ -4,9 +4,9 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const MESSAGES = [
-  "Entering Kumaon…",
+  "Entering Kumaun…",
   "Finding the mountains…",
-  "Welcome to Kumaon.",
+  "Welcome to Kumaun.",
 ];
 
 /**

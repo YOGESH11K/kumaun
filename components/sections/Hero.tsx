@@ -69,7 +69,7 @@ export function Hero() {
           className="font-display text-[19vw] leading-none tracking-tight text-mist-white sm:text-[15vw] lg:text-[13vw]"
           style={{ textShadow: "0 10px 60px rgba(0,0,0,0.55)" }}
         >
-          KUMAON
+          KUMAUN
         </motion.h1>
 
         <motion.p
