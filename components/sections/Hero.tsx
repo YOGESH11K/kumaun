@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { motion, useReducedMotion } from "framer-motion";
 import { useExperience } from "@/components/providers/ExperienceProvider";
 import { useScrollY } from "@/lib/hooks";
+import { img } from "@/lib/imageSource";
 import { MagneticButton } from "@/components/ui/MagneticButton";
 import { SiteImage } from "@/components/ui/SiteImage";
 
@@ -37,7 +38,7 @@ export function Hero() {
             style={{ willChange: "transform" }}
           >
             <SiteImage
-              src="/images/landscapes/hero-panorama.svg"
+              src={img("/images/landscapes/hero-panorama")}
               alt="Kumaon Himalayan mountain panorama at dawn"
               fill
               priority

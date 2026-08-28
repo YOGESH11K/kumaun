@@ -1,3 +1,5 @@
+import { img } from "@/lib/imageSource";
+
 export const siteConfig = {
   title: "Kumaon — Discover Mukteshwar, Saliyakote & Nainital",
   shortTitle: "KUMAON",
@@ -5,7 +7,7 @@ export const siteConfig = {
     "Explore the mountains, villages, forests and landscapes of Kumaon through an immersive digital journey across Mukteshwar, Saliyakote, Sundarkhal, Dharapani and Nainital.",
   url: "https://kumaun.vercel.app",
   domain: "kumaun.vercel.app",
-  ogImage: "/images/landscapes/hero-panorama.svg",
+  ogImage: img("/images/landscapes/hero-panorama"),
   author: "Yogesh Kumar",
   phone: "8923145213",
   keywords: [

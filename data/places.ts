@@ -1,3 +1,5 @@
+import { img } from "@/lib/imageSource";
+
 export type Coordinates = {
   lat: number;
   lng: number;
@@ -46,7 +48,7 @@ export type Place = {
   content: InfoBlock[];
 };
 
-const K = (path: string, name: string) => `/images/${path}/${name}.svg`;
+const K = (path: string, name: string) => img(`/images/${path}/${name}`);
 
 /**
  * CENTRAL CONTENT FILE

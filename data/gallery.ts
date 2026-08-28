@@ -1,3 +1,5 @@
+import { img } from "@/lib/imageSource";
+
 export type GalleryPhoto = {
   src: string;
   alt: string;
@@ -23,7 +25,7 @@ export const galleryCategories = [
   "Nainital",
 ] as const;
 
-const PH = (path: string) => `/images/${path}.svg`;
+const PH = (path: string) => img(`/images/${path}`);
 const ratio = (w: number, h: number) => ({ width: w, height: h });
 
 export const galleryPhotos: GalleryPhoto[] = [

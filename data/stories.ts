@@ -1,3 +1,5 @@
+import { img } from "@/lib/imageSource";
+
 export type Story = {
   slug: string;
   title: string;
@@ -29,7 +31,7 @@ export const stories: Story[] = [
       "Then, without warning, the highest peak catches fire. The gold moves down the range, spills into the valley, and reaches the fields and the roofs of Saliyakote. For a few minutes the whole hillside glows.",
       "By the time the sun is fully up, the moment is gone — but everyone who lives here knows it happens again tomorrow, the same as it has always done.",
     ],
-    image: "/images/saliyakote-malla/sunrise-peaks.svg",
+    image: img("/images/saliyakote-malla/sunrise-peaks"),
     imageAlt: "Dawn light over the Saliyakote hills",
     author: "Community note",
     date: "Placeholder",
@@ -46,7 +48,7 @@ export const stories: Story[] = [
       "The orchards rise in terraces above the forest, catching the sun and the mountain air that gives the fruit its flavour. Through the seasons they move from blossom to fruit to bare winter branches.",
       "This is where the owner's own family story belongs — the orchard that has been in the family, the harvest rituals, the names of the fruit that grows best here.",
     ],
-    image: "/images/mukteshwar/orchard.svg",
+    image: img("/images/mukteshwar/orchard"),
     imageAlt: "Fruit orchard in the Mukteshwar hills",
     author: "Community note",
     date: "Placeholder",
@@ -63,7 +65,7 @@ export const stories: Story[] = [
       "Here the hills feel closer and less arranged for visitors. Roads wind, birds call, and the occasional village appears in a clearing of fields.",
       "The owner knows these hidden corners best — the walk to a spring, the field with the best evening light, the family that farms the slope. This page is their canvas.",
     ],
-    image: "/images/sundarkhal/forest-valley.svg",
+    image: img("/images/sundarkhal/forest-valley"),
     imageAlt: "Forested valley near Sundarkhal",
     author: "Community note",
     date: "Placeholder",

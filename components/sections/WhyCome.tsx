@@ -2,15 +2,16 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { SiteImage } from "@/components/ui/SiteImage";
+import { img } from "@/lib/imageSource";
 
 const statements = [
-  { text: "For the mountains.", img: "/images/experiences/mountain-silence.svg", alt: "Himalayan mountain ridge in the distance" },
-  { text: "For the silence.", img: "/images/experiences/mountain-silence.svg", alt: "Quiet Himalayan forest landscape" },
-  { text: "For the forests.", img: "/images/experiences/forest-light.svg", alt: "Green pine forest in morning light" },
-  { text: "For the villages.", img: "/images/experiences/village-calm.svg", alt: "Kumaon village among the hills" },
-  { text: "For the mornings.", img: "/images/mukteshwar/sunrise-peaks.svg", alt: "Sunrise over the Himalayan peaks" },
-  { text: "For the Himalayan sky.", img: "/images/experiences/himalayan-sky.svg", alt: "Clear Himalayan mountain sky" },
-  { text: "For the feeling you cannot explain.", img: "/images/experiences/mountain-morning.svg", alt: "Misty Himalayan morning landscape" },
+  { text: "For the mountains.", img: img("/images/experiences/mountain-silence"), alt: "Himalayan mountain ridge in the distance" },
+  { text: "For the silence.", img: img("/images/experiences/mountain-morning"), alt: "Quiet misty Himalayan morning landscape" },
+  { text: "For the forests.", img: img("/images/experiences/forest-light"), alt: "Green pine forest in morning light" },
+  { text: "For the villages.", img: img("/images/experiences/village-calm"), alt: "Kumaon village among the hills" },
+  { text: "For the mornings.", img: img("/images/mukteshwar/sunrise-peaks"), alt: "Sunrise over the Himalayan peaks" },
+  { text: "For the Himalayan sky.", img: img("/images/experiences/himalayan-sky"), alt: "Clear Himalayan mountain sky" },
+  { text: "For the feeling you cannot explain.", img: img("/images/experiences/why-mornings"), alt: "Golden light through the Kumaon morning" },
 ];
 
 export function WhyCome() {

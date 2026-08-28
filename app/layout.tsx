@@ -32,13 +32,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: siteConfig.shortTitle,
-    images: [{ url: `${siteConfig.ogImage}.svg`, width: 1280, height: 900, alt: "Kumaon Himalayan landscape" }],
+    images: [{ url: siteConfig.ogImage, width: 1280, height: 900, alt: "Kumaon Himalayan landscape" }],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    images: [`${siteConfig.ogImage}.svg`],
+    images: [siteConfig.ogImage],
   },
   robots: {
     index: true,
