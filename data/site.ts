@@ -3,8 +3,8 @@ export const siteConfig = {
   shortTitle: "KUMAON",
   description:
     "Explore the mountains, villages, forests and landscapes of Kumaon through an immersive digital journey across Mukteshwar, Saliyakote, Sundarkhal, Dharapani and Nainital.",
-  url: "https://kumaon.example.com",
-  domain: "kumaon.example.com",
+  url: "https://kumaun.vercel.app",
+  domain: "kumaun.vercel.app",
   ogImage: "/images/landscapes/hero-panorama.svg",
   author: "Yogesh Kumar",
   phone: "8923145213",
