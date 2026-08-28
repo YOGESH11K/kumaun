@@ -1,0 +1,32 @@
+export const siteConfig = {
+  title: "Kumaon — Discover Mukteshwar, Saliyakote & Nainital",
+  shortTitle: "KUMAON",
+  description:
+    "Explore the mountains, villages, forests and landscapes of Kumaon through an immersive digital journey across Mukteshwar, Saliyakote, Sundarkhal, Dharapani and Nainital.",
+  url: "https://kumaon.example.com",
+  domain: "kumaon.example.com",
+  ogImage: "/images/landscapes/hero-panorama.svg",
+  author: "Yogesh Kumar",
+  phone: "8923145213",
+  keywords: [
+    "Kumaon",
+    "Mukteshwar",
+    "Saliyakote",
+    "Sundarkhal",
+    "Dharapani",
+    "Nainital",
+    "Uttarakhand tourism",
+    "Himalaya",
+    "Kumaon villages",
+    "Nainital lake",
+  ],
+  nav: [
+    { label: "Home", href: "#home" },
+    { label: "Mukteshwar", href: "#mukteshwar" },
+    { label: "Saliyakote", href: "#saliyakote" },
+    { label: "Sundarkhal", href: "#sundarkhal" },
+    { label: "Dharapani", href: "#dharapani" },
+    { label: "Nainital", href: "#nainital" },
+    { label: "Gallery", href: "#gallery" },
+  ],
+};
